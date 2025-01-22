@@ -121,6 +121,7 @@ var labels_search_list = [];
         }
       }
 
+
       function addLabel(elem){
         var label_text = prompt("Enter label");
         if (label_text.trim() != "" && label_text.indexOf("#") == -1){
