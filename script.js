@@ -15,7 +15,8 @@ var labels_search_list = [];
       var settings = JSON.parse(document.getElementById("info-saver").textContent);
       settings["theme"] = "dark";
       document.getElementById("info-saver").textContent = JSON.stringify(settings);
-    }else{
+    }
+    else{
       document.getElementsByTagName("html")[0].setAttribute("data-theme", "light");
       elem.getElementsByTagName("svg")[0].getElementsByTagName("path")[0].style.display = "none";
       elem.getElementsByTagName("svg")[0].getElementsByTagName("path")[1].style.display = "block";
