@@ -6,6 +6,7 @@ var labels_search_list = [];
 
 
 
+
  function switchTheme(elem){
     var current_theme = document.getElementsByTagName("html")[0].getAttribute("data-theme");
     if (current_theme == null || current_theme == "light"){
