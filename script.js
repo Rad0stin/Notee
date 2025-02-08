@@ -4,7 +4,6 @@ var note_name = window.location.href.split("/").slice(-1).toString().split("#")[
 document.getElementsByClassName("note-title-text")[0].textContent = note_name;
 var labels_search_list = [];
 
-
  function switchTheme(elem){
     var current_theme = document.getElementsByTagName("html")[0].getAttribute("data-theme");
     if (current_theme == null || current_theme == "light"){
